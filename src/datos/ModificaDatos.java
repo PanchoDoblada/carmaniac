@@ -285,6 +285,7 @@ public class ModificaDatos{
 		
 		tabla.setModel(modelo);
 		modelo.fireTableDataChanged();
+		
 	}
 	
 	public void mostrarReparaciones(JTable tabla) throws SQLException {
