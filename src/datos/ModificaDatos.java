@@ -289,7 +289,7 @@ public class ModificaDatos{
 	
 	public void mostrarReparaciones(JTable tabla) throws SQLException {
 		
-		String [] columnas= {"Código","DNI_CLIENTE","Matricula","Coste_Materiales", "Horas_Trabajo","TOTAL"};
+		String [] columnas= {"Código","ID_Cliente","Matricula","Coste_Materiales", "Horas_Trabajo","TOTAL"};
 		DefaultTableModel modelo = new DefaultTableModel(null,columnas);
 		tabla.setModel(modelo);
 		
@@ -317,7 +317,7 @@ public class ModificaDatos{
 			datos[2] = resultado.getString(3);
 			datos[3] = resultado.getString(4);
 			datos[4] = resultado.getString(5);
-			datos[5] = resultado.getString(6);
+//			datos[5] = resultado.getString(6);
 			modelo.addRow(datos);
 		}
 		TableColumnModel modeloColumna = tabla.getColumnModel();
