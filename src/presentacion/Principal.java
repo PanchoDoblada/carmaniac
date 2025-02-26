@@ -52,6 +52,7 @@ public class Principal{
 		miMarco1.setVisible(true);
 		
 		miMarco1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 	}
 
 }
